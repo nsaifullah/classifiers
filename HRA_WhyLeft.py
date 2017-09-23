@@ -3,14 +3,6 @@
 ##I use successively more sophisticated learning algorithms to classify workers into "Left" and "Not-Left" using the features available.
 ##Predictably, sklearn's ensemble methods are fantastic for this question.
 
-##OUTSTANDING ISSUES:
-# 1. Incorporating the predicted classes vector may not be done correctly; research maybs?
-
-##WORKING LIST:
-#1. (DONE) Test all models (2 and 3 remaining) against testing data (25% holdout)
-#2. (DONE; OLS neglected) Perform 4-fold CV on models to validate
-#3. (DONE) Perform boosting and similar testing on feature set
-
 ##Nikhil Saifullah
 
 import pandas as pd
